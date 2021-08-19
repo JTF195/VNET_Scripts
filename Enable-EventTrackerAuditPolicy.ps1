@@ -53,8 +53,8 @@ auditpol /set /subcategory:"IPsec Extended Mode"                     /success:di
 auditpol /set /subcategory:"Special Logon"                           /success:enable  /failure:enable
 auditpol /set /subcategory:"Other Logon/Logoff Events"               /success:enable  /failure:enable
 auditpol /set /subcategory:"Network Policy Server"                   /success:enable  /failure:enable
-auditpol /set /subcategory:"User / Device Claims"                    /success:disable /failure:disable    #added
-auditpol /set /subcategory:"Group Membership"                        /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"User / Device Claims"                    /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"Group Membership"                        /success:disable /failure:disable    #added
 
 # Object Access
 auditpol /set /subcategory:"File System"                             /success:enable  /failure:enable
@@ -69,8 +69,8 @@ auditpol /set /subcategory:"Filtering Platform Packet Drop"          /success:di
 auditpol /set /subcategory:"Filtering Platform Connection"           /success:disable /failure:disable
 auditpol /set /subcategory:"Other Object Access Events"              /success:disable /failure:disable
 auditpol /set /subcategory:"Detailed File Share"                     /success:disable /failure:disable
-auditpol /set /subcategory:"Removable Storage"                       /success:disable /failure:disable    #added
-auditpol /set /subcategory:"Central Policy Staging"                  /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"Removable Storage"                       /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"Central Policy Staging"                  /success:disable /failure:disable    #added
 
 # Privilege Use
 auditpol /set /subcategory:"Non Sensitive Privilege Use"             /success:enable  /failure:enable
@@ -82,8 +82,8 @@ auditpol /set /subcategory:"Process Creation"                        /success:en
 auditpol /set /subcategory:"Process Termination"                     /success:enable  /failure:enable
 auditpol /set /subcategory:"DPAPI Activity"                          /success:disable /failure:disable
 auditpol /set /subcategory:"RPC Events"                              /success:enable  /failure:enable
-auditpol /set /subcategory:"Plug and Play Events"                    /success:disable /failure:disable    #added
-auditpol /set /subcategory:"Token Right Adjusted Events"             /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"Plug and Play Events"                    /success:disable /failure:disable    #added
+#auditpol /set /subcategory:"Token Right Adjusted Events"             /success:disable /failure:disable    #added
 
 # Policy Change
 auditpol /set /subcategory:"Audit Policy Change"                     /success:enable  /failure:enable

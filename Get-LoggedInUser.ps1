@@ -8,7 +8,7 @@ Function Get-LoggedInUser {
     Name: Get-LoggedInUser
     Author: Paul Contreras
     Version: 3.0
-    DateUpdated: 2021-Sep-21
+    DateUpdated: 2021-09-21
  
 .LINK
     https://thesysadminchannel.com/get-logged-in-users-using-powershell/ -
